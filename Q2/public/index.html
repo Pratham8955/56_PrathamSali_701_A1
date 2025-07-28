@@ -1,0 +1,24 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Static Server Example</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            color: #333;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a static HTML file served by Node.js!</h1>
+    <p id="text">JavaScript will change this text.</p>
+
+    <script>
+        document.getElementById('text').innerText = "Hello from script.js!";
+    </script>
+</body>
+</html>

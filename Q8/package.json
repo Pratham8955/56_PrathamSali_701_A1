@@ -1,0 +1,16 @@
+{
+  "name": "q8",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "start": "node server.js",
+  "test": "echo \" Test Passed\"",
+  "sayhello": "echo Hello from custom script!",
+  "today": "node -e \"console.log('Today is: ' + new Date().toLocaleDateString())\"",
+  "authorinfo": "echo \"Author: Pratham Sali | RNO: 56 | Div: A\""
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

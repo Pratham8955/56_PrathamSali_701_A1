@@ -1,0 +1,21 @@
+{
+  "name": "@pratham8955/string-utility",
+  "version": "1.0.0",
+  "description": "A collection of useful string manipulation utilities",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "string",
+    "utility",
+    "capitalize",
+    "reverse",
+    "truncate"
+  ],
+  "author": "Pratham Kiran Sali",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
